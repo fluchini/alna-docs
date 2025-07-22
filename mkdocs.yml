@@ -2,13 +2,18 @@ site_name: Alna Docs
 site_url: https://docs.alna.com.br
 
 nav:
-  - Início: index.md
-  - Guia de Documentação:
-      - 'Geral': 'guideline/general.md'
-      - 'Abas': 'guideline/tabs.md'
-      - 'Admoestação': 'guideline/admonition.md'
-      - 'Código': 'guideline/code.md'
-      - 'Diagramas': 'guideline/diagram.md'
+  - Overview: 'overview.md'
+  - Markdown: 'topics/markdown.md'
+  - MkDocs: 'topics/mkdocs.md'
+  - MkDocs Guide:
+    - Get Start: 'topics/mkdocs/get-start.md'
+    - Material:
+      - 'General': 'topics/mkdocs/material/general.md'
+      - 'Tabs': 'topics/mkdocs/material/tabs.md'
+      - 'Admonition': 'topics/mkdocs/material/admonition.md'
+      - 'Code': 'topics/mkdocs/material/code.md'
+      - 'Diagrams': 'topics/mkdocs/material/diagram.md'
+  - Start Project: 'topics/start-project.md'
 
 # Define theme and appearance.
 theme:

@@ -154,8 +154,8 @@ $$
 Adicionando imagem.
 
 ``` md
-![alt text](../assets/image.png "Azure Architecture Diagram")
+![alt text](../../../../assets/image.png "Azure Architecture Diagram")
 ```
 
-![alt text](../assets/image.png "Azure Architecture Diagram")
+![alt text](../../../../assets/image.png "Azure Architecture Diagram")
 

@@ -1,12 +1,15 @@
-# Documentação Alna
+# Get Start
 
 O objetivo deste projeto é criar uma documentação técnica, de fácil acesso e edição para devs.
 
 Documentação completa publicada no [Github](https://fluchini.github.io/alna-docs/).
 
-## Documentação MkDocs
+# Alna Docs
 
-Toda a documentação é feita utilizando a ferramente MkDocs. Para mais detalhes sobre o MkDocs visite [mkdocs.org](https://mkdocs.org).
+Toda a documentação é feita utilizando a ferramente MkDocs e Material. Para mais detalhes visite:
+
+* MkDocs: [mkdocs.org](https://mkdocs.org).
+* Material: [squidfunk.github.io](https://squidfunk.github.io/mkdocs-material/)
 
 ## Passos Para Criar e Vizualizar a Documentação.
 
@@ -15,6 +18,8 @@ Toda a documentação é feita utilizando a ferramente MkDocs. Para mais detalhe
 * No diretório raiz do projeto, compile o projeto com o comando: `mkdocs build`.
 * No diretório raiz do projeto, publique o projeto com o comando: `mkdocs serve`.
 * Acesse a página `http://127.0.0.1:8000/`.
+
+`mkdocs serve -a localhost:7101`
 
 ## Compilar e Publicar Documetação
 
@@ -52,7 +57,7 @@ Agora, no arquivo mkdocs.yml adicione o atributo `theme`, conforme exemplo abaix
       name: material
     
     nav:
-      - Início: index.md
+      - Início: overview.md
       - Menu-01: 'menu-01/tools-and-configs.md'
       - Menu-02:
         - 'Submenu-02-1': 'menu-02/calendar.md'
