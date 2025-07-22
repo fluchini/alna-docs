@@ -28,7 +28,7 @@ This documentation is built using Markdown, MkDocs and Material. For more inform
 
 ## Layout of Project
 
-    mkdocs.yml       # Configuration file.
+    mkdocs.yml    # Configuration file.
     docs/
-        overview.md  # Main page (home).
-        ...          # Others Markdown pages, images and files.
+        index.md  # Main page (home). You **MUST** to keet this name (_index.md_).
+        ...       # Others Markdown pages, images and files.

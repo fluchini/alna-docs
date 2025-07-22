@@ -2,7 +2,7 @@ site_name: Alna Docs
 site_url: https://docs.alna.com.br
 
 nav:
-  - Overview: 'overview.md'
+  - Overview: 'index.md'
   - Markdown: 'topics/markdown.md'
   - MkDocs: 'topics/mkdocs.md'
   - MkDocs Guide:

@@ -57,7 +57,7 @@ Agora, no arquivo mkdocs.yml adicione o atributo `theme`, conforme exemplo abaix
       name: material
     
     nav:
-      - Início: overview.md
+      - Início: index.md
       - Menu-01: 'menu-01/tools-and-configs.md'
       - Menu-02:
         - 'Submenu-02-1': 'menu-02/calendar.md'

@@ -2,7 +2,7 @@
 
 The objective of this project is document the best way to _document_ projects. These projects could be a software project or any kind of project technical that you want.
 
-All documentation of this project is already published in [fluchini.github.io](https://fluchini.github.io/alna-docs/) :simple-github:
+All documentation of this project is already published in [fluchini.github.io](https://fluchini.github.io/alna-docs/).
 
 ## Alna Docs
 
@@ -28,7 +28,7 @@ This documentation is built using Markdown, MkDocs and Material. For more inform
 
 ## Layout of Project
 
-    mkdocs.yml       # Configuration file.
+    mkdocs.yml      # Configuration file.
     docs/
-        overview.md  # Main page (home).
-        ...          # Others Markdown pages, images and files.
+        index.md    # Main page (home). You **MUST** to keet this name (_index.md_).
+        ...         # Others Markdown pages, images and files.
